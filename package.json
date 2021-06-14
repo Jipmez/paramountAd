@@ -3,13 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --port 3000",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^27.0.0",
+    "@ckeditor/ckeditor5-vue": "^2.0.1",
+    "@meforma/vue-toaster": "^1.1.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "datatables.net-dt": "^1.10.24",
+    "jquery": "^3.6.0",
+    "node-sass": "^5.0.0",
+    "popper.js": "^1.16.1",
+    "sass-loader": "^10.1.0",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.2",
+    "vuex": "^4.0.0-rc.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
