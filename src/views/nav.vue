@@ -2,7 +2,7 @@
   <div class="blog-page index-isotope v3">
     <nav
       class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
-      style="background: #1f1f1f !important; min-height: 80px; padding: 10px !important;"
+      style="background: #1f1f1f !important; min-height: 80px; padding: 10px !important"
     >
       <div class="container d-flex align-items-center justify-content-between">
         <router-link to="/" class="navbar-brand">
@@ -11,7 +11,7 @@
             width="40"
             alt=""
           />
-          <span style="font-size: 1.714em;">ParamountAd<span></span></span>
+          <span style="font-size: 1.714em">ParamountAds<span></span></span>
         </router-link>
         <button
           class="navbar-toggler"
@@ -35,10 +35,8 @@
             <li class="nav-item active">
               <a class="nav-link text-white" href="#pricing">Package</a>
             </li>
-            <li class="nav-item ">
-              <router-link to="/ads" class="nav-link text-white"
-                >Adverts</router-link
-              >
+            <li class="nav-item">
+              <router-link to="/ads" class="nav-link text-white">Adverts</router-link>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -53,12 +51,8 @@
                 Join
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <router-link to="/login" class="dropdown-item"
-                  >Login</router-link
-                >
-                <router-link to="/signup" class="dropdown-item"
-                  >Signup</router-link
-                >
+                <router-link to="/login" class="dropdown-item">Login</router-link>
+                <router-link to="/signup" class="dropdown-item">Signup</router-link>
               </div>
             </li>
           </ul>
@@ -109,9 +103,7 @@
                 </li>
                 <li>
                   <i class="fa fa-chevron-right"></i>
-                  <a href="https://api.whatsapp.com/send?phone=447723854663"
-                    >Sell</a
-                  >
+                  <a href="https://api.whatsapp.com/send?phone=447723854663">Sell</a>
                 </li>
               </ul>
             </div>
